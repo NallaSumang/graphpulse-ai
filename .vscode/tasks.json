@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Setup GraphPulse environment",
+			"type": "shell",
+			"command": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"Set-Location 'C:\\Users\\suman\\graphpulse-ai'; @('venv/', '__pycache__/', '.env', '*.png', '.DS_Store') | Set-Content -Path '.gitignore'; if (-not (Test-Path '.\\venv\\Scripts\\python.exe')) { python -m venv venv }; .\\venv\\Scripts\\python.exe -m pip install --upgrade pip; .\\venv\\Scripts\\python.exe -m pip install graphifyy google-genai streamlit pydantic pytest requests; .\\venv\\Scripts\\python.exe -m pip freeze | Out-File -Encoding utf8 requirements.txt; .\\venv\\Scripts\\graphify.exe vscode install; .\\venv\\Scripts\\graphify.exe install --project; git status --short --branch\"",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Commit GraphPulse setup",
+			"type": "shell",
+			"command": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"Set-Location 'C:\\Users\\suman\\graphpulse-ai'; git config user.name 'Copilot'; git config user.email 'copilot@users.noreply.github.com'; git add -A; git commit -m 'chore: configure local environment, dependencies, and Graphify VS Code skill' -m 'Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>'; git log -1 --oneline\"",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
