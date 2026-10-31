@@ -3,3 +3,7 @@ __pycache__/
 .env
 *.png
 .DS_Store
+
+# Local Claude customization
+.claude/
+CLAUDE.md
