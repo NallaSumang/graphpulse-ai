@@ -1,0 +1,292 @@
+{
+  "communities": {
+    "0": [
+      "collections",
+      "database",
+      "database_customerrepository",
+      "database_customerrepository_get",
+      "database_customerrepository_init",
+      "database_customerrepository_list_active",
+      "database_customerrepository_save",
+      "database_paymentrepository",
+      "database_paymentrepository_customer_request_count",
+      "database_paymentrepository_find_result",
+      "database_paymentrepository_init",
+      "database_paymentrepository_save_request",
+      "database_paymentrepository_save_result",
+      "database_rationale_1",
+      "database_rationale_10",
+      "database_rationale_13",
+      "database_rationale_18",
+      "database_rationale_24",
+      "database_rationale_29",
+      "database_rationale_33",
+      "database_rationale_38",
+      "database_rationale_46",
+      "database_rationale_47",
+      "database_rationale_53",
+      "database_rationale_57",
+      "database_rationale_62",
+      "database_repository",
+      "database_repository_healthcheck",
+      "database_unitofwork_init"
+    ],
+    "1": [
+      "api_router",
+      "api_router_rationale_1",
+      "dataclasses",
+      "datetime",
+      "decimal",
+      "enum",
+      "models",
+      "models_accountstatus",
+      "models_paymentdeclined",
+      "models_rationale_1",
+      "models_rationale_107",
+      "models_rationale_11",
+      "payment_gateway",
+      "payment_gateway_gatewayclient",
+      "payment_gateway_gatewayclient_init",
+      "payment_gateway_gatewayclient_refund_reference",
+      "payment_gateway_gatewayprovider",
+      "payment_gateway_py_abc",
+      "payment_gateway_rationale_1",
+      "payment_gateway_rationale_11",
+      "payment_gateway_rationale_20",
+      "payment_gateway_rationale_34",
+      "payment_gateway_rationale_45",
+      "payment_gateway_rationale_49",
+      "payment_gateway_sandboxgateway",
+      "payment_gateway_sandboxgateway_init",
+      "str",
+      "typing"
+    ],
+    "2": [
+      "models_customer",
+      "models_customer_record_risk_score",
+      "models_paymentrequest",
+      "models_rationale_20",
+      "models_rationale_34",
+      "models_rationale_40",
+      "risk_engine",
+      "risk_engine_amountrule",
+      "risk_engine_amountrule_evaluate",
+      "risk_engine_countryrule",
+      "risk_engine_countryrule_evaluate",
+      "risk_engine_py_abc",
+      "risk_engine_rationale_1",
+      "risk_engine_rationale_12",
+      "risk_engine_rationale_16",
+      "risk_engine_rationale_21",
+      "risk_engine_rationale_24",
+      "risk_engine_rationale_30",
+      "risk_engine_rationale_33",
+      "risk_engine_rationale_39",
+      "risk_engine_rationale_42",
+      "risk_engine_rationale_56",
+      "risk_engine_riskengine_evaluate",
+      "risk_engine_riskrule",
+      "risk_engine_riskrule_evaluate",
+      "risk_engine_velocityrule",
+      "risk_engine_velocityrule_evaluate"
+    ],
+    "3": [
+      "api_router_build_demo_router",
+      "api_router_paymentrouter",
+      "api_router_paymentrouter_get_health",
+      "api_router_paymentrouter_init",
+      "api_router_rationale_15",
+      "api_router_rationale_54",
+      "api_router_rationale_67",
+      "auth_service_authenticationservice",
+      "auth_service_authenticationservice_init",
+      "auth_service_authenticationservice_register",
+      "auth_service_rationale_12",
+      "auth_service_rationale_18",
+      "auth_service_rationale_41",
+      "auth_service_rationale_49",
+      "auth_service_tokenissuer",
+      "auth_service_tokenissuer_init",
+      "auth_service_tokenissuer_issue",
+      "database_rationale_67",
+      "database_rationale_74",
+      "database_unitofwork",
+      "database_unitofwork_healthcheck",
+      "risk_engine_rationale_49",
+      "risk_engine_riskengine",
+      "risk_engine_riskengine_init"
+    ],
+    "4": [
+      "any",
+      "api_router_paymentrouter_create_payment",
+      "api_router_paymentrouter_response",
+      "api_router_rationale_27",
+      "api_router_rationale_59",
+      "models_paymentrequest_is_positive",
+      "models_paymentrequest_normalized_currency",
+      "models_paymentresult",
+      "models_paymentresult_as_dict",
+      "models_paymentresult_init",
+      "models_rationale_52",
+      "models_rationale_56",
+      "models_rationale_61",
+      "models_rationale_76",
+      "payment_gateway_gatewayclient_charge",
+      "payment_gateway_gatewayprovider_authorize",
+      "payment_gateway_rationale_15",
+      "payment_gateway_rationale_26",
+      "payment_gateway_rationale_41",
+      "payment_gateway_sandboxgateway_authorize"
+    ],
+    "5": [
+      "auth_service",
+      "auth_service_authenticatedprincipal",
+      "auth_service_authenticatedprincipal_can_charge",
+      "auth_service_authenticatedprincipal_can_view_history",
+      "auth_service_authenticatedprincipal_init",
+      "auth_service_authenticationservice_authenticate",
+      "auth_service_rationale_1",
+      "auth_service_rationale_25",
+      "auth_service_rationale_32",
+      "auth_service_rationale_36",
+      "auth_service_rationale_56",
+      "exception",
+      "hashlib",
+      "hmac",
+      "models_authenticationerror",
+      "models_customer_is_active",
+      "models_rationale_103",
+      "models_rationale_30",
+      "models_rationale_99",
+      "models_serviceerror"
+    ],
+    "6": [
+      "models_rationale_87",
+      "models_rationale_94",
+      "models_riskdecision",
+      "models_riskdecision_requires_review"
+    ]
+  },
+  "cohesion": {
+    "0": 0.07635467980295567,
+    "1": 0.1164021164021164,
+    "2": 0.13675213675213677,
+    "3": 0.12681159420289856,
+    "4": 0.12631578947368421,
+    "5": 0.10526315789473684,
+    "6": 0.5
+  },
+  "gods": [
+    {
+      "id": "models_paymentrequest",
+      "label": "PaymentRequest",
+      "degree": 28
+    },
+    {
+      "id": "models_customer",
+      "label": "Customer",
+      "degree": 27
+    },
+    {
+      "id": "models_paymentresult",
+      "label": "PaymentResult",
+      "degree": 20
+    },
+    {
+      "id": "api_router_paymentrouter",
+      "label": "PaymentRouter",
+      "degree": 18
+    },
+    {
+      "id": "database_unitofwork",
+      "label": "UnitOfWork",
+      "degree": 14
+    },
+    {
+      "id": "auth_service_authenticationservice",
+      "label": "AuthenticationService",
+      "degree": 12
+    },
+    {
+      "id": "database_paymentrepository",
+      "label": "PaymentRepository",
+      "degree": 11
+    },
+    {
+      "id": "payment_gateway_gatewayclient",
+      "label": "GatewayClient",
+      "degree": 11
+    },
+    {
+      "id": "risk_engine_riskengine",
+      "label": "RiskEngine",
+      "degree": 11
+    },
+    {
+      "id": "models_paymentdeclined",
+      "label": "PaymentDeclined",
+      "degree": 10
+    }
+  ],
+  "surprises": [
+    {
+      "source": "CustomerRepository",
+      "target": "Customer",
+      "source_files": [
+        "database.py",
+        "models.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "PaymentRepository",
+      "target": "PaymentRequest",
+      "source_files": [
+        "database.py",
+        "models.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "PaymentRepository",
+      "target": "PaymentResult",
+      "source_files": [
+        "database.py",
+        "models.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "PaymentRouter",
+      "target": "PaymentDeclined",
+      "source_files": [
+        "api_router.py",
+        "models.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "PaymentRouter",
+      "target": "GatewayClient",
+      "source_files": [
+        "api_router.py",
+        "payment_gateway.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}
